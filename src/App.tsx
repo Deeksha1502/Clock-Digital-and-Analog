@@ -1,13 +1,16 @@
 
 
 import './App.css'
+import { Digital } from './components/digitalClock/Digital'
 
 function App() {
   
 
   return (
     <>
-      <div className='bg-red-300'>hello</div>
+      <div>
+        <Digital/>
+      </div>
     </>
   )
 }
